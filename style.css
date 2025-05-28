@@ -11,7 +11,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(asssets/img/exhibicion-de-cadena-dorada-brillante-y-lujosa.jpg); /* Cambia a tu ilustración vegetal */
+  background-image: url("asssets/img/patron-de-marmol-dorado.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -21,9 +21,9 @@ body {
 .login-container {
   background: rgba(255, 255, 255, 0.9);
   border-radius: 40% 5% 5% 40% / 40% 5% 5% 40%;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
   padding: 60px;
-  width: 400px;
+  width: 450px;
   animation: fadeSlideIn 1s ease-out;
 }
 
@@ -66,8 +66,8 @@ input {
   width: 100%;
   padding: 12px;
   margin-top: 20px;
-  background: linear-gradient(90deg, #ffda8c, #ffc25a);
-  color: #733B0A;
+  background: linear-gradient(100deg, #733702, #733702);
+  color: white;
   border: none;
   border-radius: 8px;
   font-weight: bold;
@@ -102,11 +102,11 @@ input {
 /* Animaciones */
 @keyframes fadeSlideIn {
   from {
-    opacity: 0;
+    opacity: 1;
     transform: translateY(40px);
   }
   to {
-    opacity: 1;
+    opacity: 0.8;
     transform: translateY(0);
   }
 }
